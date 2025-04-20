@@ -11,8 +11,8 @@ msg = conn.mav.command_long_encode(
     conn.target_component,
     mavutil.mavlink.MAV_CMD_SET_MESSAGE_INTERVAL,
     0,
-    mavutil.mavlink.MAVLINK_MSG_ID_RAW_IMU,  # Use MAVLINK_MSG_ID_SCALED_IMU2 if needed
-    20000,  # Interval in microseconds (20000 µs = 50 Hz)
+    mavutil.mavlink.MAVLINK_MSG_ID_RAW_IMU, 
+    20000, 
     0,
     0,
     0,
