@@ -1,1 +1,8 @@
-needs to send imu data added to https://github.com/jaidevshriram/Visual-Inertial-SLAM and then replace output for command 6 in missionControl
+sends imu data added to https://github.com/jaidevshriram/Visual-Inertial-SLAM
+
+
+Captures camera frames
+Reads IMU data
+Predicts motion using the IMU data
+Updates the SLAM state with visual features by camera frames
+Displays the current pose and visualization
